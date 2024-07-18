@@ -14,6 +14,7 @@ public class example {
 	@Test
 	public void myTest() {
 		// TODO Auto-generated method stub
+		// demo-application
 		WebDriver driver =  new ChromeDriver();
 		driver.get("https://letcode.in/dropdowns");
 		driver.manage().window().maximize();
